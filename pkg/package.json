@@ -1,0 +1,15 @@
+{
+  "name": "wasmer-wasi-js",
+  "collaborators": [
+    "Syrus Akbary <syrus@wasmer.io>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasmer_wasi_js_bg.wasm",
+    "wasmer_wasi_js.js",
+    "wasmer_wasi_js.d.ts"
+  ],
+  "module": "wasmer_wasi_js.js",
+  "types": "wasmer_wasi_js.d.ts",
+  "sideEffects": false
+}

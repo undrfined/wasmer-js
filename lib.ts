@@ -1,7 +1,7 @@
 // import load, { WASI } from "./pkg/index";
-export * from "./pkg/wasmer_wasi_js";
-import { InitInput } from "./pkg/wasmer_wasi_js";
-import load from "./pkg/wasmer_wasi_js";
+export * from "./pkg";
+import { InitInput } from "./pkg";
+import load from "./pkg";
 import wasm_bytes from "./pkg/wasmer_wasi_js_bg.wasm";
 
 interface MimeBuffer extends Buffer {

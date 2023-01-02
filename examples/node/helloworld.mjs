@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from "node/fs.mjs";
 import { init, WASI } from "@wasmer/wasi";
 
 // This is needed to load the WASI library first
