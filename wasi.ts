@@ -1,7 +1,7 @@
 // @deno-types="./pkg/wasmer_wasi_js.d.ts"
-import baseInit, { WASI, InitInput } from "./pkg";
+import baseInit, { WASI, InitInput } from "wasmer-wasi-js";
 // @deno-types="./pkg/wasmer_wasi_js.d.ts"
-export { WASI, MemFS, JSVirtualFile, WasmerRuntimeError } from "./pkg";
+export { WASI, MemFS, JSVirtualFile, WasmerRuntimeError } from "wasmer-wasi-js";
 
 let inited: Promise<any> | null = null;
 export const init = async (input?: InitInput | Promise<InitInput>, force?: boolean) => {
